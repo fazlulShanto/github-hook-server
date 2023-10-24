@@ -9,6 +9,7 @@ app.get('/',(req ,res)=>{
 
 app.post('/',(req,res)=>{
   console.log(new Date().toString(),'body',req.body);
+  console.log(`now do you thing with this pushing`);
   res.send("good");
 })
 
